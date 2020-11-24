@@ -50,6 +50,7 @@ daily_average_by_interval[which.max(daily_average_by_interval$`Average Steps`),]
 ```
 
 ## Imputing missing values
+*Imputed missing values by using mean function inside impute() method*
 
 ```r
 library("Hmisc")
